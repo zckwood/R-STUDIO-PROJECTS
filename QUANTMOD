@@ -1,0 +1,7 @@
+//QUANTMOD IS A PACKAGE THAT TAKES HISTORICAL DATA FROM YAHOO AND ALLOWS YOU TO ANALYZE SUCH STOCK DATA
+//HOW TO LOAD UP CODE
+getSymbols("AAPL", src="yahoo")
+chartSeries(AAPL, subset="last 6 months" theme=chartTheme("white"))
+//SOME BASIC FUNCTIONS
+addMACD()
+addBBands(n = 20, sd = 2, maType = "SMA", draw = 'bands', on = -1) 
