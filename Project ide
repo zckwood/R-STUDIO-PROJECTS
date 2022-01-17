@@ -1,3 +1,17 @@
 Project idea is to create a comparative analysis of different programming languages and their stock analysis capabilities.
 Then do an analysis with R programming and seeing how twitter sentiment affects the stock market.
 what r packages are best for stock analysis.
+
+packages to learn:
+quantmod
+xts
+tidyverse
+forecats
+proformance analytics
+
+objective for R packages:
+select stock ticker
+pull up price history
+pull up EMAs
+be able to find stock price action/ price of a specific day and time
+predict the direction and price of the stock
